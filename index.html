@@ -3,13 +3,36 @@
 <html>
 
     <head>
-        <title>Welcome to my website!</title>
+        
+        <link rel="stylesheet" href="stylesheet.css" />
+        <script type="importmap">
+        {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@v0.149.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.149.0/examples/jsm/"
+        }
+        }
+        </script>
+        <title>David Thomann</title>
+
     </head>
 
     <body>
 
-        <h1>Welcome!</h1>
-        <h2>This is my portfolio website on Github Pages</h2>
+        <div id="main">
+            <section id="main-text">
+                <h1>Welcome!</h1>
+                <h2>This is my portfolio website</h2>
+                <h3>It's still under construction...</h3>
+            </section>
+            <section id="scene-container"></section>
+            <section id="main-links">
+                Feel free to visit my 
+                <a href="https://github.com/djthomann">Github Profile</a>
+            </section>
+        </div>
+
+        <script type="module" src="scene.js"></script>
 
     </body>
 
