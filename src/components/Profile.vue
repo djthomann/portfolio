@@ -10,16 +10,16 @@
                 Focus on Mobile Development, Human Computer Interaction and Full-Stack development
             </div>
             <ul id="skills">
-                <li>Java</li>
-                <li>Kotlin</li>
-                <li>Vue</li>
-                <li>Spring</li>
+                <li><img id="java-icon" src="/java.svg" alt="Java"></li>
+                <li><img id="kotlin-icon" src="/kotlin.svg" alt="Kotlin"></li>
+                <li><img id="vue-icon" src="/vue.svg" alt="Vue"></li>
+                <li><img id="spring-icon" src="/spring.svg" alt="Spring"></li>
             </ul>
             
         </div>
         <div id="further">
-                <a href="#projects">Projects</a>
-            </div>
+            <a id="further" href="#projects">Projects<img id="further-icon" src="/down_arrow.svg" alt="Further"></a>
+        </div>
     </div>
 </template>
 
@@ -47,11 +47,27 @@
     align-items: center;
     justify-content: center;
     height: 5vh;
-    font-size: 2.5vh;
+    font-size: 2vh;
 }
 
 #github-icon {
-    height: 100%;
+    height: 60%;
+}
+
+#java-icon {
+    height: 52px;
+}
+
+#kotlin-icon {
+    height: 40px;
+}
+
+#vue-icon {
+    height: 40px;
+}
+
+#spring-icon {
+    height: 40px;
 }
 
 #name {
@@ -82,14 +98,16 @@
 }
 
 #skills {
-    margin-top: 5%;
+    margin-top: 7.5%;
     width: 100%;
     padding: 0;
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 20px;
     text-decoration: none;
     display: flex;
+    font-weight: bold;
 }
 
 #skills li {
@@ -99,6 +117,23 @@
 #further {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: bold;
+}
+
+#further-icon {
+    height: 20px;
+    animation: spin 1s ease-in-out infinite alternate;
+}
+
+@keyframes spin {
+  from {
+    transform: translateY(5px);
+  }
+  to {
+    transform: translateY(15px);
+  }
 }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
     <section id="projects" class="sec">
-        <h1>Projects</h1>
+        <h1 class="section-heading">Projects</h1>
     </section>
 </template>
 

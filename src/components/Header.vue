@@ -72,7 +72,7 @@ function toggleMenu() {
     }
 
     a {
-        color: rgb(112, 115, 145);
+        color: rgb(65, 66, 82);
     }
 
     #links {
@@ -85,7 +85,7 @@ function toggleMenu() {
     #links-menu {
         margin-right: 10%;
         display: none;
-        color: rgb(112, 115, 145);
+        color: rgb(65, 66, 82);
     }
 
     @media (max-width: 1024px) {
@@ -100,6 +100,6 @@ function toggleMenu() {
 
     #name {
         margin-left: 10%;
-        color: rgb(112, 115, 145);
+        color: rgb(65, 66, 82);
     }
 </style>

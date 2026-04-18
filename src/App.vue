@@ -7,6 +7,7 @@ import Projects from './components/Projects.vue';
 </script>
 
 <template>
+  <div id="background"></div>
   <Header></Header>
   <Profile />
   <Projects />
