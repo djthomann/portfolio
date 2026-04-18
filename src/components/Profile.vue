@@ -34,7 +34,7 @@
 }
 
 #profile {
-    width: 60%;
+    width: 90%;
     height: 60vh;
     display: flex;
     flex-direction: column;
