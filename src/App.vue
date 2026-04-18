@@ -1,7 +1,15 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import About from './components/About.vue';
+import Contact from './components/Contact.vue';
+import Header from './components/Header.vue';
+import Profile from './components/Profile.vue';
+import Projects from './components/Projects.vue';
 </script>
 
 <template>
-  <HelloWorld />
+  <Header></Header>
+  <Profile />
+  <Projects />
+  <About />
+  <Contact />
 </template>
