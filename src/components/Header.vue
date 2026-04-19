@@ -54,7 +54,7 @@ function toggleMenu() {
     }
 
     #menu-flexbox div {
-        margin-right: 10%;
+        margin-right: 3%;
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -79,11 +79,11 @@ function toggleMenu() {
         display: flex;
         align-items: center;
         gap: 20px;
-        margin-right: 10%;
+        margin-right: 3%;
     }
 
     #links-menu {
-        margin-right: 10%;
+        margin-right: 3%;
         display: none;
         color: rgb(65, 66, 82);
     }
@@ -99,7 +99,7 @@ function toggleMenu() {
     }
 
     #name {
-        margin-left: 10%;
+        margin-left: 3%;
         color: rgb(65, 66, 82);
     }
 </style>

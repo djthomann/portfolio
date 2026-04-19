@@ -1,10 +1,11 @@
 <template>
+    <div id="background"></div>
     <div id="flexbox">
         <div id="profile">
             <div id="name">
                 David Thomann
             </div>
-            <div id="github"><img id="github-icon" src="/github.svg" alt="GitHub"><a href="https://github.com/djthomann">@djthomann</a></div>
+            <div id="github"><img id="github-icon" src="/github.svg" alt="GitHub"><a href="https://github.com/djthomann" target="_blank">@djthomann</a></div>
             <div id="bio">
                 Computer Science and Media Student<br>
                 Focus on Mobile Development, Human Computer Interaction and Full-Stack development
@@ -24,6 +25,16 @@
 </template>
 
 <style lang="css" scoped>
+#background {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle,rgb(0, 74, 104) 0%, rgba(0, 0, 0, 1) 70%);
+  background-size: 100% 200%;
+  background-position: 0 0%;
+}
+
 #flexbox {
     width: 100%;
     height: 95vh;
@@ -98,7 +109,7 @@
 }
 
 #skills {
-    margin-top: 7.5%;
+    margin-top: 3.5%;
     width: 100%;
     padding: 0;
     display: flex;

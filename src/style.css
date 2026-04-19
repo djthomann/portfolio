@@ -47,22 +47,12 @@ a:visited {
   color: white;
 }
 
-#background {
-  position: fixed;
-  z-index: -1;
-  width: 100vw;
-  height: 100vh;
-  background: radial-gradient(circle,rgb(0, 74, 104) 0%, rgba(0, 0, 0, 1) 70%);
-  background-size: 100% 200%;
-  background-position: 0 0%;
-}
-
 #app {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 70%;
-  padding: 0 15%;
+  width: 100%;
+  /* padding: 0 15%; */
   
 }
 
@@ -80,5 +70,15 @@ a:visited {
 
 .section-heading {
   text-align: center;
+}
+
+ul {
+  text-decoration: none;
+  padding: 0;
+}
+
+li {
+  display: block;
+  padding: 0;
 }
 
